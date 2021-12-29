@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bolb"
+version = "1.0.0"
+description = "bolb"
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/vcokltfre/bolb"
+keywords = ["bolb"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
